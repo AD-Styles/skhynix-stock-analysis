@@ -19,7 +19,7 @@
 skhynix-stock-analysis/
 ├─ .gitignore                      
 ├─ LICENSE                         
-├─ README.md                       # 프로젝트 개요 및 메인 가이드 문서
+├─ README.md                       # 프로젝트 개요 및 가이드 문서
 ├─ SK_Hynix_Stock_Analysis.py      # 전체 분석 파이프라인 통합 실행 스크립트
 └─ requirements.txt                # 핵심 라이브러리 목록
 ```
