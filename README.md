@@ -28,20 +28,17 @@ skhynix-stock-analysis/
 
 ---
 
-## 🔍 분석 흐름 (Section 1 ~ 10)
+## 🔍 분석 흐름 및 시각화 결과 (Section 1 ~ 10)
 
-| 단계 | 분석 과정 &emsp;&emsp;&emsp;&emsp; | 상세 내용 |
+| 단계 | 분석 과정 | 상세 내용 및 결과 시각화 |
 | :---: | :--- | :--- |
-| **Section 1** | **데이터 수집** | `yfinance` API를 활용하여 SK하이닉스 일봉 데이터 로드 및 결측치 제거 |
-| **Section 2** | **탐색적 데이터 분석 (EDA)** | 기초 통계량 검토 및 데이터 타입 확인 |
-| **Section 3** | **기술적 지표 계산** | 이동평균선(20/60/120일), RSI(14일), 볼린저 밴드(20일), MACD 도출 |
-| **Section 4** | **종합 대시보드 구성** | `matplotlib`을 활용한 4-Panel 기술적 지표 시각화 |
-| **Section 5** | **상관관계 분석** | 변수 간 선형 상관계수 히트맵 도출 |
-| **Section 6** | **수익률 분석** | 일간/연간 누적 수익률, 변동성, 샤프 지수, MDD 통계량 산출 (연간 수익률 추정치: +69.88%, 최대 낙폭: -48.20%) |
-| **Section 7** | **Bidirectional LSTM 모델링** | 과거·미래 양방향 문맥을 학습하는 딥러닝 아키텍처 설계 (Huber Loss 적용) |
-| **Section 8** | **모델 학습 및 예측** | 최근 30일 데이터를 기반으로 향후 30일(D+1 ~ D+30) 주가 궤적 예측 시각화 |
-| **Section 9** | **검증 세트 평가** | 실제값과 예측값의 오차율(MAE, RMSE, MAPE) 및 R2 Score 측정 |
-| **Section 10** | **분석 요약** | 파이프라인 요약 및 한계점 명시 |
+| **Section 1-3** | **데이터 수집 및 EDA** | `yfinance` 데이터 로드 및 기초 통계량 검토 |
+| **Section 4-5** | **기술적 지표 및 대시보드** | MA, RSI, Bollinger Bands, MACD 지표 생성 및 시각화<br><br><img src="plots/01_technical_dashboard.png" width="100%"> |
+| **Section 6** | **상관관계 분석** | OHLCV 및 기술 지표 간 상관계수 히트맵 도출<br><br><img src="plots/02_correlation_heatmaps.png" width="100%"> |
+| **Section 7** | **수익률 분석** | 누적 수익률 및 연간 수익률 분포 분석<br><br><img src="plots/03_volume_return_analysis.png" width="100%"> |
+| **Section 8** | **Bi-LSTM 모델 학습** | Huber Loss 기반 학습 곡선 확인<br><br><img src="plots/04_training_history.png" width="100%"> |
+| **Section 9** | **미래 주가 예측** | 최근 데이터를 기반으로 향후 30일 주가 궤적 예측<br><br><img src="plots/05_stock_prediction.png" width="100%"> |
+| **Section 10** | **모델 평가** | 검증 세트 실제값 vs 예측값 비교 분석<br><br><img src="plots/06_validation_evaluation.png" width="100%"> |
 
 ---
 
