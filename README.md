@@ -1,4 +1,4 @@
-### 📊 SK하이닉스(SK Hynix) 주가 분석 및 예측 포트폴리오
+# 📊 SK Hynix Stock Price Analysis & Prediction Portfolio
 
 ### SK하이닉스(000660.KS)의 시계열 데이터와 기술적 지표를 분석하고, Bidirectional LSTM 모델을 적용하여 향후 30일간의 주가 흐름을 예측하는 인공지능 및 데이터 엔지니어링 포트폴리오.
 
