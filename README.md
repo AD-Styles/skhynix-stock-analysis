@@ -27,7 +27,7 @@ skhynix-stock-analysis/
 
 ## 🔍 분석 흐름 (Section 1 ~ 10)
 
-| 단계 | 분석 과정 | 상세 내용 |
+| 단계 | 분석 과정 &emsp;&emsp;&emsp;&emsp; | 상세 내용 |
 | :---: | :--- | :--- |
 | **Section 1** | **데이터 수집** | `yfinance` API를 활용하여 SK하이닉스 일봉 데이터(OHLCV) 로드 및 결측치 제거 |
 | **Section 2** | **탐색적 데이터 분석 (EDA)** | 기초 통계량 검토 및 데이터 타입 확인 |
