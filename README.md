@@ -17,6 +17,7 @@
 ## 📂 프로젝트 구조 (Project Structure)
 ```text
 skhynix-stock-analysis/
+├─ plots/                   # 분석 결과 시각화 이미지 저장 폴더
 ├─ src/
 │  └─ main.py               # 전체 분석 파이프라인 통합 실행 스크립트
 ├─ .gitignore                      
