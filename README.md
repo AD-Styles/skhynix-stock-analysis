@@ -30,7 +30,7 @@ skhynix-stock-analysis/
 
 ## 🔍 분석 흐름 및 시각화 결과 (Section 1 ~ 10)
 
-| 단계 | 분석 과정 | 상세 내용 및 결과 시각화 |
+| 단계 | 분석 과정 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 상세 내용 및 결과 시각화 |
 | :---: | :--- | :--- |
 | **Section 1-3** | **데이터 수집 및 EDA** | `yfinance` 데이터 로드 및 기초 통계량 검토 |
 | **Section 4-5** | **기술적 지표 및 대시보드** | MA, RSI, Bollinger Bands, MACD 지표 생성 및 시각화<br><br><img src="plots/01_technical_dashboard.png" width="100%"> |
