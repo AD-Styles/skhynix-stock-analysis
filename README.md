@@ -2,11 +2,20 @@
 
 ### SK하이닉스(000660.KS)의 시계열 데이터와 기술적 지표를 분석하고, Bidirectional LSTM 모델을 적용하여 향후 30일간의 주가 흐름을 예측하는 인공지능 및 데이터 엔지니어링 포트폴리오.
 
-## 📝 프로젝트 개요
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white"/>
+
+---
+
+## 📌 프로젝트 요약 (Project Overview)
 본 프로젝트는 SK하이닉스(000660.KS)의 2020년부터 현재까지의 일봉 데이터를 바탕으로 탐색적 데이터 분석(EDA)과 기술적 지표 분석을 수행하고, Bidirectional LSTM 모델을 활용하여 향후 30일간의 주가 추이를 예측한 데이터 파이프라인 구축 사례입니다.
 
 
-## 🗂️ 프로젝트 구조
+## 📂 프로젝트 구조 (Project Structure)
 ```text
 skhynix-stock-analysis/
 ├─ notebooks/
@@ -18,7 +27,6 @@ skhynix-stock-analysis/
 ---
 
 ## 🔍 분석 흐름 (Section 1 ~ 10)
-주피터 노트북 환경에서 단일 파이프라인으로 구성하여 데이터 수집부터 모델 평가까지 체계적으로 진행했습니다.
 
 | 단계 | 분석 과정 | 상세 내용 |
 | :---: | :--- | :--- |
