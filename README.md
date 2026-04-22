@@ -29,7 +29,7 @@ skhynix-stock-analysis/
 
 | 단계 | 분석 과정 &emsp;&emsp;&emsp;&emsp; | 상세 내용 |
 | :---: | :--- | :--- |
-| **Section 1** | **데이터 수집** | `yfinance` API를 활용하여 SK하이닉스 일봉 데이터(OHLCV) 로드 및 결측치 제거 |
+| **Section 1** | **데이터 수집** | `yfinance` API를 활용하여 SK하이닉스 일봉 데이터 로드 및 결측치 제거 |
 | **Section 2** | **탐색적 데이터 분석 (EDA)** | 기초 통계량 검토 및 데이터 타입 확인 |
 | **Section 3** | **기술적 지표 계산** | 이동평균선(20/60/120일), RSI(14일), 볼린저 밴드(20일), MACD 도출 |
 | **Section 4** | **종합 대시보드 구성** | `matplotlib`을 활용한 4-Panel 기술적 지표 시각화 |
