@@ -1,0 +1,14 @@
+# Data Collection & Processing
+yfinance
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning & Metrics
+scikit-learn
+
+# Deep Learning
+tensorflow==2.19.0
